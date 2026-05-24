@@ -8,7 +8,7 @@ This repository contains the supplementary data file for the research paper:
 
 > **A Cyber-Physical-Social-Thinking (CPST) Framework for African Minor Language Preservation and Revitalization in the AGI Era**  
 > *Scientific African* (submitted)  
-> Authors: Huansheng Ning, Ji Fa, Jianguo Ding
+> Authors: Jifar Wakuma Ayana.et al
 
 ---
 
@@ -176,31 +176,8 @@ The **Digital Language Vitality Scale (DLVS)** is an established framework (Korn
 
 ## Citation
 
-If you use this dataset in your research, please cite:
+We will provide it soon
 
-```bibtex
-@article{cpst_african_languages_2026,
-  title={A Cyber-Physical-Social-Thinking ({CPST}) Framework for {A}frican Minor Language Preservation and Revitalization in the {AGI} Era},
-  author={Ning, Huansheng and Fa, Ji and Ding, Jianguo},
-  journal={Scientific African},
-  year={2026},
-  note={Submitted}
-}
-```
-
-And the dataset itself:
-
-```bibtex
-@misc{cpst_assessment_data_2026,
-  title={{CPST} Assessment Framework: Supplementary Data for {A}frican Minor Language Preservation},
-  author={Ning, Huansheng and Fa, Ji and Ding, Jianguo},
-  year={2026},
-  howpublished={\url{https://github.com/YOUR_USERNAME/YOUR_REPO_NAME}},
-  note={Excel workbook with CPST dimension ratings, sub-criteria scores, and language coverage data}
-}
-```
-
----
 
 ## License
 
