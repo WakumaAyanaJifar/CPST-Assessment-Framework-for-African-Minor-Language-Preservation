@@ -8,7 +8,7 @@ This repository contains the supplementary data file for the research paper:
 
 > **A Cyber-Physical-Social-Thinking (CPST) Framework for African Minor Language Preservation and Revitalization in the AGI Era**  
 > *Scientific African* (submitted)  
-> Authors: Jifar Wakuma Ayana.et al
+> Authors: Jifar Wakuma Ayana et al.
 
 ---
 
@@ -16,27 +16,31 @@ This repository contains the supplementary data file for the research paper:
 
 This Excel workbook provides the structured assessment data underlying the CPST framework evaluation in the paper. It contains detailed ratings, sub-criteria scores, and cross-dataset language coverage data used to diagnose the state of African minor language preservation across five case-study countries.
 
-### What is CPST?
+---
 
-**CPST** stands for **Cyber-Physical-Social-Thinking** — a four-dimensional framework originally proposed by Ning and Liu (2015) for analyzing complex socio-technical systems. In this paper, it is applied to African minor language preservation:
+## CPST Framework
 
-| Dimension | What it covers | Key question |
-|-----------|---------------|-------------|
-| **Cyber** | Digital resources: corpora, models, benchmarks, speech data, APIs | Are functional NLP tools available for this language? |
-| **Physical** | Tangible anchors: offline deployment, radio, textbooks, signage, writing systems | Is the language physically present in the community? |
-| **Social** | Institutions and communities: policies, networks, capacity building, data sovereignty | Are institutions supporting this language's digital future? |
-| **Thinking** | Cognition and identity: participatory design, pride, trust, epistemic justice | Do speakers value and trust technology in their language? |
+**CPST (Cyber-Physical-Social-Thinking)** — four-dimensional framework originally proposed by Ning and Liu (2015) for socio-technical systems analysis, applied here to African minor language preservation.
 
-### What is DLVS?
+| Dimension | Coverage | Key Question |
+|-----------|----------|--------------|
+| **Cyber** | Digital resources: corpora, models, benchmarks, speech data, APIs | Functional NLP tools availability |
+| **Physical** | Offline deployment, radio, textbooks, signage, writing systems | Physical presence in community |
+| **Social** | Institutions, policies, networks, capacity building, data sovereignty | Institutional support |
+| **Thinking** | Cognition, identity, trust, participatory design, epistemic justice | Speaker perception and trust |
 
-The **Digital Language Vitality Scale (DLVS)** is an established framework (Kornai 2013; DLDP 2018) that maps to CPST as follows:
+---
+
+## DLVS Mapping
+
+**Digital Language Vitality Scale (DLVS)** (Kornai 2013; DLDP 2018) mapped to CPST:
 
 | DLVS Dimension | CPST Dimension | Typical African Score |
 |----------------|----------------|----------------------|
-| Capacity | Cyber | 2-3 (Minimal/Limited) |
-| Presence | Physical | 2-3 (None/Minimal) |
-| Performance | Social | 3-4 (Minimal/Medium) |
-| Prestige | Thinking | 2-4 (Varies widely) |
+| Capacity | Cyber | 2–3 (Minimal/Limited) |
+| Presence | Physical | 2–3 (None/Minimal) |
+| Performance | Social | 3–4 (Minimal/Medium) |
+| Prestige | Thinking | 2–4 (Varies widely) |
 
 ---
 
@@ -44,34 +48,23 @@ The **Digital Language Vitality Scale (DLVS)** is an established framework (Korn
 
 | File | Description |
 |------|-------------|
-| `CPST_Assessment_Supplementary.xlsx` | Primary dataset — 10 sheets with full assessment data |
-| `README.md` | This documentation file |
+| `CPST_Assessment_Supplementary.xlsx` | Primary dataset — 10 sheets |
+| `README.md` | Documentation file |
 
 ---
 
 ## Workbook Structure
 
 ### 1. Cover
-**What it is:** Landing page with key metrics, sheet index, and rating legend.  
-**Use for:** Quick orientation before exploring the data.
+Landing page with key metrics, sheet index, and rating legend.
 
 ### 2. Country CPST Ratings
-**What it is:** Overall CPST dimension ratings for five case-study countries (Ghana, Nigeria, Ethiopia, South Africa, Kenya).  
-**Contains:**
-- Categorical ratings (Strong / Moderate / Mixed / Emerging / Weak / Not Addressed) with color coding
-- Numeric composite scores (1-5 scale) for quantitative comparison
-- A bar chart showing CPST composite scores by country
+CPST dimension ratings for Ghana, Nigeria, Ethiopia, South Africa, and Kenya, including categorical and composite scores.
 
-**How to read it:** Nigeria scores highest (4.00) due to strong government partnerships (NITDA/NKENNE). Ghana and Kenya score lowest due to underdeveloped Physical and Thinking dimensions.
+### 3–6. Sub-criteria Sheets (Cyber / Physical / Social / Thinking)
+Six diagnostic sub-criteria per dimension across five countries (24 total indicators).
 
-### 3-6. Sub-criteria Sheets (Cyber / Physical / Social / Thinking)
-**What they are:** Detailed breakdowns of each CPST dimension into 6 diagnostic sub-criteria per country.  
-**Contains:**
-- 24 sub-criteria total (6 per dimension)
-- Individual ratings with evidence sources
-- Color-coded cells matching the rating legend
-
-**Example — Cyber Sub-criteria:**
+Example — Cyber:
 | Sub-criterion | Ghana | Nigeria | Ethiopia | South Africa | Kenya |
 |--------------|-------|---------|----------|--------------|-------|
 | Digital corpora | Moderate | Strong | Moderate | Strong | Moderate |
@@ -79,35 +72,20 @@ The **Digital Language Vitality Scale (DLVS)** is an established framework (Korn
 | Benchmarks | Weak | Moderate | Moderate | Strong | Weak |
 
 ### 7. DLVS Mapping
-**What it is:** Maps the Digital Language Vitality Scale to CPST dimensions with example scores for 10 African languages.  
-**Contains:**
-- DLVS dimension definitions and 6-point scale
-- Example vitality scores for Swahili, Amharic, Hausa, Yoruba, Zulu, Oromo, Wolof, Tigrinya, Xitsonga, and Ghomala
-- Data bars for visual score comparison
+Mapping between DLVS and CPST with example scores for selected African languages.
 
-**Key insight:** Swahili scores highest (4.25 average) due to strong corpora and institutional support. Ghomala scores lowest (1.25) with minimal digital presence across all dimensions.
+Swahili shows highest average score (4.25). Ghomala shows lowest (1.25).
 
 ### 8. Language Coverage
-**What it is:** Cross-dataset presence of 37 African languages across 4 major NLP resources.  
-**Contains:**
-- Presence indicators (Y = present, N = absent) with counts where available
-- Coverage depth score C(l) = number of datasets present
-- Color-coded presence/absence and data bars for C(l)
+Cross-dataset presence of 16 African languages across AfriSenti, MasakhaNER, AfroLM, and NLLB-200.
 
-**Key finding:** Only 4 languages (Hausa, Yoruba, Igbo, Swahili) appear in all 4 datasets. Most languages appear in 1-2 datasets only.
+Only Hausa, Yoruba, Igbo, and Swahili appear in all datasets.
 
 ### 9. Rating Protocol
-**What it is:** The complete assessment methodology used to derive all ratings in this workbook.  
-**Contains:**
-- **6 rating category definitions** with numeric conversions
-- **6-step assessment procedure** (evidence collection → dimension mapping → independent rating → consensus → composite scoring → validation)
-- **24-item sub-criteria checklist** with evidence requirements for each item
-
-**Use for:** Replicating the assessment, extending to new countries/languages, or validating the methodology.
+Assessment methodology including rating categories, scoring procedure, and validation steps.
 
 ### 10. Sources
-**What it is:** Complete citations for all 19 data sources used in the assessment.  
-**Contains:** Dataset/resource name, type, source organization, and direct URL.
+19 datasets and references used in the assessment, including dataset type and URLs.
 
 ---
 
@@ -115,12 +93,12 @@ The **Digital Language Vitality Scale (DLVS)** is an established framework (Korn
 
 | Rating | Color | Numeric | Meaning |
 |--------|-------|---------|---------|
-| **Strong** | Green | 5 | Well-developed with multiple functional components |
-| **Moderate** | Amber | 4 | Partially developed; functional but limited |
-| **Mixed** | Purple | 3.5 | Uneven development across sub-criteria |
-| **Emerging** | Blue | 3 | Early-stage; pilots or plans in place |
-| **Weak** | Red | 2 | Minimal development; few functional components |
-| **Not Addressed** | Gray | 1 | No evidence of intervention |
+| Strong | Green | 5 | Well-developed |
+| Moderate | Amber | 4 | Partially developed |
+| Mixed | Purple | 3.5 | Uneven |
+| Emerging | Blue | 3 | Early-stage |
+| Weak | Red | 2 | Minimal |
+| Not Addressed | Gray | 1 | No evidence |
 
 ---
 
@@ -128,77 +106,43 @@ The **Digital Language Vitality Scale (DLVS)** is an established framework (Korn
 
 | Metric | Value |
 |--------|-------|
-| Countries assessed | 5 (Ghana, Nigeria, Ethiopia, South Africa, Kenya) |
-| CPST dimensions | 4 (Cyber, Physical, Social, Thinking) |
-| Sub-criteria per dimension | 6 (24 total) |
-| Languages in coverage matrix | 37 |
-| Datasets tracked | 4 (AfriSenti, MasakhaNER, AfroLM, NLLB-200) |
+| Countries assessed | 5 |
+| CPST dimensions | 4 |
+| Sub-criteria per dimension | 6 |
+| Languages | 37 |
+| Datasets | 4 |
 | Rating categories | 6 |
 
 ---
 
-## How to Use This Dataset
+## Key Findings
 
-### For Researchers
-- **Replicate the assessment:** Follow the 6-step procedure in the Rating Protocol sheet to apply CPST to new countries or languages
-- **Compare initiatives:** Use the sub-criteria sheets to benchmark language preservation projects against the 24 diagnostic indicators
-- **Quantify gaps:** Use the numeric composite scores to identify which dimensions need investment
-
-### For Policymakers
-- **Diagnose national readiness:** Look up your country's row in Country CPST Ratings to identify strengths and gaps
-- **Allocate resources:** Use sub-criteria sheets to pinpoint specific areas needing intervention (e.g., offline deployment, capacity building)
-- **Track progress:** Re-assess periodically using the same protocol to measure improvement
-
-### For Practitioners
-- **Design projects:** Ensure your initiative addresses all 4 CPST dimensions, not just Cyber (technology)
-- **Learn from leaders:** Nigeria's Social dimension and Ethiopia's Thinking dimension provide models to emulate
-- **Avoid common failures:** Ghana's "Strong Cyber + Weak Physical/Social/Thinking" pattern shows why technology alone is insufficient
-
-### For Students
-- **Understand the field:** The DLVS Mapping sheet shows how language vitality is measured
-- **Explore the data:** The Language Coverage sheet reveals which African languages have digital resources and which do not
-
----
-
-## Important Findings from the Data
-
-1. **No country is balanced.** All five case studies show uneven CPST profiles — strong in some dimensions, weak in others.
-
-2. **Cyber alone is insufficient.** Ghana has strong Cyber resources (GhanaNLP corpus) but Weak Physical, Social, and Thinking dimensions — limiting real-world impact.
-
-3. **Government partnership matters.** Nigeria's strong Social rating reflects NITDA government partnership, which enables scaling beyond volunteer efforts.
-
-4. **Linguistic pride is critical.** Ethiopia's strong Thinking dimension (75% youth pride in mother-tongue communication) correlates with better preservation outcomes.
-
-5. **Coverage is highly concentrated.** Only 4 languages (Hausa, Yoruba, Igbo, Swahili) appear in all 4 tracked datasets. Most African languages have minimal or no digital presence.
+1. No country is balanced across CPST dimensions.
+2. Cyber-only development is insufficient.
+3. Government partnerships improve scalability.
+4. Linguistic pride influences outcomes.
+5. Digital resources are highly concentrated.
 
 ---
 
 ## Citation
 
-We will provide it soon
+To be provided.
 
+---
 
 ## License
 
-This dataset is released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-
-You are free to:
-- **Share** — copy and redistribute the material in any medium or format
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
-
-Under the following terms:
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 ---
 
 ## Contact
 
-For questions, corrections, or suggestions regarding this dataset, please open an issue in this repository or contact the corresponding author.
 wakexayanajifar01@gmail.com
 
 ---
 
 ## Acknowledgments
 
-The authors thank the many African researchers, engineers, and community members whose work inspired this study. Special thanks to the teams at Masakhane, GhanaNLP, NKENNE, NITDA, Addis Ababa University, and all contributors to the African NLP ecosystem.
+Masakhane, GhanaNLP, NKENNE, NITDA, Addis Ababa University, and African NLP contributors.
