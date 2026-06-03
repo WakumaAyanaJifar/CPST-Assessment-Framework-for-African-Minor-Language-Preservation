@@ -8,7 +8,7 @@ This repository contains the supplementary data file for the research paper:
 
 > **A Cyber-Physical-Social-Thinking (CPST) Framework for African Minor Language Preservation and Revitalization in the AGI Era**  
 > *Scientific African* (submitted)  
-> Authors: Jifar Wakuma Ayana et al.
+> Authors: 
 
 ---
 
